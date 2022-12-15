@@ -1,0 +1,381 @@
+body
+{
+    margin-left: 0;
+    margin-top: 0;
+}
+/* ---------------------------------------------------onTop open------------------------------------------------------------------ */
+.onTop
+{
+    height: 70px;
+    width: 100%;
+    /* border: 2px solid red; */
+    overflow: hidden;
+    background-color: black;
+}
+.onTop ul
+{
+    /* border: 1px solid red; */
+    padding-left: 77px;
+    margin-top: -1px;
+}
+.onTop li 
+{
+    float: left;
+    /* border: 1px solid red; */
+    padding: 7px 18px;
+    text-decoration: none;
+    /* margin: 2px; */
+    margin-right: 55px;
+    margin-top: 10px;
+    position: relative;
+}
+.onTop ul :hover
+{
+    border-bottom: 2px solid white;
+}
+.onTop li a
+{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: large;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.onTop select 
+{
+    height: 45px;
+    width: 45px;
+    font-family: Unbounded, cursive;
+    font-size: smaller;
+    margin-right: -5px;
+    padding-bottom: 2px;
+}
+.onTop input
+{
+    height: 44px;
+    width: 400px;
+    font-family: 'Unbounded', cursive;
+    font-size: smaller;
+    border: none;
+}
+.onTop button
+{
+    height: 43px;
+    font-family: 'Unbounded', cursive;
+    font-size: smaller;
+    width: 53px;
+    padding-bottom: 31px;
+    padding-top: 13px;
+    /* margin-bottom: 98px; */
+    margin-left: -9px;
+    background-color: #eec881;
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+}
+
+
+.cart img
+{
+    height: 27px;
+    width: 35px;
+    font-weight: normal;
+}
+.select1
+{
+    padding-top: 2px;
+    margin-bottom: -18px; 
+    background-color: lightgray;
+    border-radius: 8px 0px 0px 8px; 
+}
+.searchbar button img
+{
+    height: 21px;
+    width: 24px;
+}
+.searchbar button
+{
+    margin-top: 2px;
+}
+.searchbar
+{
+    padding: 0px;
+}
+.amazonlogo
+{
+    /* border: 2px solid red; */
+    
+}
+.amazonlogo img
+{
+    height: 33px;
+    width: 106px;
+    /* padding-bottom: 0px;*/
+}
+
+
+/* ---------------------------------------------------onTop close------------------------------------------------------------------ */
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* .navbar
+{
+    height: 50px;
+    width: 100%;
+    border: 2px solid blue;
+}
+
+.navbar div
+{
+    border: 1px solid red;
+    display: inline-block;
+    background-color: aqua;
+} */
+#Gallary
+{
+    height: 300px;
+    width: 100%;
+    /* border: 2px solid rgb(92, 16, 2); */
+    overflow: hidden;
+}
+/* --------------------------------------------------Backtotop open----------------------------------------- */
+.backtotop
+{
+    height: 40px;
+    width: 100%;
+    border: 2px solid red;
+    background-color: #232222;
+}
+.backtotop a
+{
+    text-decoration: none;
+    line-height: 35px;
+    font-size: 15px;
+    color: aliceblue;
+}
+/* --------------------------------------------------Backtotop close----------------------------------------- */
+/* ---------------------------------------content open------------------------------------------------------------------------ */
+.forHome
+{
+    height: 545px;
+    width: 100%;
+    /* border: 2px solid rgb(255, 1, 1); */
+}
+
+
+.Content
+{
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid rgb(255, 0, 0); */
+    /* margin: 30px; */
+    background-color: lightpink;
+}
+.Content1{
+    float: left;
+    background-color: whitesmoke;
+}
+.Content1 a
+{
+    margin-left: 21px;
+}
+.Content .forHome
+{
+    height: 241px;
+    width: 288px;
+    /* border: 2px solid rgb(37, 0, 61); */
+    margin-left: 20px;
+    margin-top: 20px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,600&display=swap');
+.forHome h3
+{
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 20px;
+}
+.forHome img
+{
+    height: 156px;
+    width: 249px;
+    margin-left: 20px;
+}
+
+.Content .amazonbrands
+{
+    height: 266px;
+    width: 288px;
+    /* border: 2px solid rgb(37, 0, 61); */
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.amazonbrands h3
+{
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 20px;
+}
+.amazonbrands img
+{
+    height: 156px;
+    width: 249px;
+    margin-left: 20px;
+}
+
+.Content .woman
+{
+    height: 309px;
+    width: 334px;
+    /* border: 2px solid rgb(37, 0, 61); */
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.woman h3
+{
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 20px;
+}
+.woman img
+{
+    height: 206px;
+    width: 290px;
+    margin-left: 20px;
+}
+
+.Content .login
+{
+    height: 124px;
+    width: 354px;
+    /* border: 2px solid rgb(37, 0, 61); */
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.login h3
+{
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 20px;
+}
+.login img
+{
+    height: 156px;
+    width: 249px;
+    margin-left: 20px;
+}
+/* .login .Content1 button .btn
+{
+    margin-left: 10px;
+} */
+/* ---------------------------------------------content close--------------------------------------------------------------------------- */
+/* ------------------------------------------------viewed open------------------------------------------------------------------------ */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.viewed
+{
+    height: 286px;;
+    width: auto;
+    /* border: 2px solid red; */
+    margin: 30px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    background-color: white;
+}
+.viewed1
+{
+    height: 286px;;
+    width: max-content;
+    /* border: 2px solid red; */
+    margin-right: 32px;
+    background-color: white;
+}
+.viewed h3
+{
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 20px;
+}
+.viewed img
+{
+    
+}
+.viewed .product
+{
+    height: 191px;
+    width: 220px;
+    /* border: 2px solid red; */
+    margin: 10px 0 13px 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-grid;
+    background-color: white;
+}
+
+/* ------------------------------------------------viewed close---------------------------------------------------------- */
+.footer
+{
+    height: 260px;
+    width: 100%;
+    /* border: 2px solid rgb(25, 0, 255); */
+    background-color: black
+}
+.footer1
+{
+    height: fit-content;
+    width: fit-content;
+    /* border: 2px solid rgb(247, 0, 0); */
+    /* margin-left: 120px; */
+    margin-right: 125px;
+    margin-top: 50px;
+    float: left;
+}
+.footer1 .heading h2
+{
+    height: 30px;
+    width: fit-content;
+    /* border: 2px solid rgb(247, 0, 0); */
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.footer1 .list 
+{
+    height: auto;
+    width: 200px;
+    /* border: 2px solid rgb(247, 0, 0); */
+}
+li 
+{
+    list-style-type: none;
+}
+.footer1 .list a
+{
+    font-size: initial;
+    margin-left: -35px;
+    color: #f1f1f1;
+}
