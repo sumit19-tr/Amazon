@@ -8,6 +8,20 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Unbounded:wght@600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="script.js"></script>
+        <style>
+            .mydark
+            {
+                background-color: rgb(44, 43, 43);
+            }
+        </style>
+        <script>
+            function changeMode()
+            {
+               var name = document.getElementsByClassName('Content');
+                name.classList.toggle("mydark");
+            }
+        </script>  
     </head>
     <body style="background-color: rgb(237 235 235);">
         <div class="onTop">
@@ -32,11 +46,12 @@
                         <option value="">Furniture</option>
                     </select>
                     <input  type="text" placeholder="" name="search" >
-                    <button type="submit"><img src="https://cdn-icons-png.flaticon.com/512/3917/3917754.png" alt=""></button>
+                    <button class="searchbtn" type="submit"><img src="https://cdn-icons-png.flaticon.com/512/3917/3917754.png" alt=""></button>
                 </li>                    
                 <li><a href="">Sign in</a>  </li>  
                 <li><a href="" style="padding-top: 0px;padding-bottom: 0px;">orders</a></li>    
                 <li><a href="" class="cart" ><img src="https://icon-library.com/images/white-shopping-cart-icon/white-shopping-cart-icon-9.jpg" alt="icon">cart</a></li>
+                <li><button class="DarkModeBtn" onclick="changeMode()">Dark Mode</button></li>
             </ul>
         </div>
         <!-- <header class="navbar">
@@ -82,6 +97,9 @@
                 </a>
 
             </div>
+        </div>
+        <div class="coupon">
+            <button  onclick="closeCoupon()">&times;</button>
         </div>
         <section class="Content">
             <div class="forHome Content1">
@@ -155,7 +173,7 @@
         </section>
         <div class="Backtotop">
             <center>
-                <a href="">Back to top</a>
+                <button>Back to top</button>
             </center>            
         </div>
         <footer class="footer">
@@ -198,6 +216,9 @@
                     </ul>
                 </article>
             </div>
-        </footer>        
+        </footer> 
+        <script>
+            window.onload = loadCoupon();
+        </script>       
     </body>
 </html>

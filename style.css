@@ -1,3 +1,6 @@
+/* dark mode css*/
+
+
 body
 {
     margin-left: 0;
@@ -25,9 +28,8 @@ body
     padding: 7px 18px;
     text-decoration: none;
     /* margin: 2px; */
-    margin-right: 55px;
+    margin-right: 35px;
     margin-top: 10px;
-    position: relative;
 }
 .onTop ul :hover
 {
@@ -58,7 +60,7 @@ body
     font-size: smaller;
     border: none;
 }
-.onTop button
+.onTop .searchbtn
 {
     height: 43px;
     font-family: 'Unbounded', cursive;
@@ -111,10 +113,43 @@ body
     width: 106px;
     /* padding-bottom: 0px;*/
 }
-
+.DarkModeBtn
+{
+    height: 44px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 500;
+    color: whitesmoke;
+    background-color: black;
+    margin-top: -9px;
+}
 
 /* ---------------------------------------------------onTop close------------------------------------------------------------------ */
-
+/* -------------------------Coupon ---------------------- */
+.coupon
+{
+    height: 176px;
+    width: 692px;
+    position: absolute;
+    margin-top: -39%;
+    margin-left: 21%;
+    background-image: url(images/coupon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    z-index: 100;
+}
+.coupon button
+{
+    float: right;
+    background-color: transparent;
+    border: transparent;
+    color: black;
+    font-size: 40px;
+    margin-top: -18px;
+    margin-right: -10px;
+}
+/*  */
 /* ---------------------------------------------------------------------------------------------------------------- */
 /* .navbar
 {
@@ -131,27 +166,10 @@ body
 } */
 #Gallary
 {
-    height: 300px;
+    height: auto;
     width: 100%;
-    /* border: 2px solid rgb(92, 16, 2); */
-    overflow: hidden;
 }
-/* --------------------------------------------------Backtotop open----------------------------------------- */
-.backtotop
-{
-    height: 40px;
-    width: 100%;
-    border: 2px solid red;
-    background-color: #232222;
-}
-.backtotop a
-{
-    text-decoration: none;
-    line-height: 35px;
-    font-size: 15px;
-    color: aliceblue;
-}
-/* --------------------------------------------------Backtotop close----------------------------------------- */
+
 /* ---------------------------------------content open------------------------------------------------------------------------ */
 .forHome
 {
@@ -159,15 +177,15 @@ body
     width: 100%;
     /* border: 2px solid rgb(255, 1, 1); */
 }
-
-
 .Content
 {
     height: 400px;
     width: 100%;
     /* border: 2px solid rgb(255, 0, 0); */
     /* margin: 30px; */
-    background-color: lightpink;
+    /* background-color: lightpink; */
+    position: absolute;
+    margin-top: -334px;
 }
 .Content1{
     float: left;
@@ -337,6 +355,27 @@ body
 }
 
 /* ------------------------------------------------viewed close---------------------------------------------------------- */
+/* --------------------------------------------------Backtotop open----------------------------------------- */
+.backtotop button
+{
+    height: 40px;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-color: #232222;
+}
+.backtotop button :hover
+{
+    background-color: lightcyan;
+}
+.backtotop 
+{
+    text-decoration: none;
+    line-height: 35px;
+    font-size: 15px;
+    color: aliceblue;
+}
+/* --------------------------------------------------Backtotop close----------------------------------------- */
+/*-------------------------------------------footer starts---------------------------------------------------*/
 .footer
 {
     height: 260px;
