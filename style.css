@@ -1,10 +1,22 @@
 /* dark mode css*/
-
-
-body
+.mydarkB
+{
+    background-color: #232222 !important;
+}
+.mydarkB2
+{
+    background-color: #414141 !important;
+}
+.mydarkH
+{
+    
+    color: white !important;
+}
+.body1
 {
     margin-left: 0;
     margin-top: 0;
+    background-color: #eeeeee;
 }
 /* ---------------------------------------------------onTop open------------------------------------------------------------------ */
 .onTop
@@ -125,7 +137,7 @@ body
 }
 
 /* ---------------------------------------------------onTop close------------------------------------------------------------------ */
-/* -------------------------Coupon ---------------------- */
+/* -------------------------------------Coupon -------------------------------------- */
 .coupon
 {
     height: 176px;
@@ -137,17 +149,21 @@ body
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
-    z-index: 100;
+    position: fixed;
+    
 }
 .coupon button
 {
-    float: right;
-    background-color: transparent;
-    border: transparent;
-    color: black;
-    font-size: 40px;
-    margin-top: -18px;
-    margin-right: -10px;
+        /* float: right; */
+        background-color: transparent;
+        border: transparent;
+        color: black;
+        font-size: 35px;
+        margin-top: -18px;
+        /* margin-right: -70px; */
+        margin-left: 49.2%;
+        z-index: 100;
+        position: fixed;
 }
 /*  */
 /* ---------------------------------------------------------------------------------------------------------------- */
@@ -295,6 +311,7 @@ body
 /* ------------------------------------------------viewed open------------------------------------------------------------------------ */
 ::-webkit-scrollbar {
     width: 10px;
+    border-radius: 50%;
   }
   
   /* Track */

@@ -8,23 +8,10 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Unbounded:wght@600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="script.js"></script>
-        <style>
-            .mydark
-            {
-                background-color: rgb(44, 43, 43);
-            }
-        </style>
-        <script>
-            function changeMode()
-            {
-               var name = document.getElementsByClassName('Content');
-                name.classList.toggle("mydark");
-            }
-        </script>  
+        <script src="script.js"></script>  
     </head>
-    <body style="background-color: rgb(237 235 235);">
-        <div class="onTop">
+    <body>
+        <div class="onTop c3" >
             <ul>
                 <li >
                     <div class="amazonlogo">
@@ -45,15 +32,16 @@
                         <option value="">Electronics</option>
                         <option value="">Furniture</option>
                     </select>
-                    <input  type="text" placeholder="" name="search" >
+                    <input  type="text" placeholder="" name="search">
                     <button class="searchbtn" type="submit"><img src="https://cdn-icons-png.flaticon.com/512/3917/3917754.png" alt=""></button>
                 </li>                    
-                <li><a href="">Sign in</a>  </li>  
+                <li><a href="">Sign in</a></li>  
                 <li><a href="" style="padding-top: 0px;padding-bottom: 0px;">orders</a></li>    
                 <li><a href="" class="cart" ><img src="https://icon-library.com/images/white-shopping-cart-icon/white-shopping-cart-icon-9.jpg" alt="icon">cart</a></li>
                 <li><button class="DarkModeBtn" onclick="changeMode()">Dark Mode</button></li>
             </ul>
         </div>
+        
         <!-- <header class="navbar">
             <div>Best Sellers</div>
             <div>Mobiles</div>
@@ -62,7 +50,7 @@
             <div>Fashion</div>
             <div>Home & Kitchen </div>
         </header> -->
-        <div class=".container-fluid" id="gallary">
+        <div class=".container-fluid c3" id="gallary">
             <div id=devCarousel class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#devCarousel" data-slide-to="0" class="active"></li>
@@ -95,13 +83,12 @@
                 <a class="right carousel-control" href="#devCarousel" data-slide="next">
                     <span class="glyphicon glyphicon-chevron-right"></span>
                 </a>
-
             </div>
-        </div>
-        <div class="coupon">
+        </div>        
+        <div class="coupon" >
             <button  onclick="closeCoupon()">&times;</button>
         </div>
-        <section class="Content">
+        <section class="Content c3" >
             <div class="forHome Content1">
                 <h3> Top picks for your home </h3>
                 <img src="images/Air conditioners.jpg" alt="image">
@@ -122,7 +109,7 @@
                 <button style="margin-left: 20px; width: 87%;" class="btn btn-warning ">Sign in securely</button>
             </div>
         </section>
-        <section class="viewed">
+        <section class="viewed c3" >
             <div class="viewed1">
                 <div><h3> Related to items you've viewed</h3></div>
                 <div class="product" style="background-image: url(images/sandisk.jpg);"></div>
@@ -135,7 +122,8 @@
                 <div class="product" style="background-image: url(images/sta.jpg);"></div>                
             </div>            
         </section>
-        <section class="viewed">
+        
+        <section class="viewed c3" >
             <div class="viewed1">
                 <div><h3> Grocery & Gourmet </h3></div>
                 <div class="product" style="background-image: url(images/Grocery1.jpg);"></div>
@@ -151,7 +139,7 @@
                 <div class="product" style="background-image: url(images/Grocery11.jpg);"></div>              
             </div>            
         </section>
-        <section class="viewed">
+        <section class="viewed c3" >
             <div class="viewed1">
                 <div><h3> Best Sellers in grocery & Gourmet Foods </h3></div>
                 <div class="product" style="background-image: url(images/Grocery\ &\ Gourmet1.jpg);"></div>
@@ -171,12 +159,12 @@
                 <div class="product" style="background-image: url(images/Grocery\ &\ Gourmet15.jpg);"></div>              
             </div>            
         </section>
-        <div class="Backtotop">
+        <div class="Backtotop c3" >
             <center>
                 <button>Back to top</button>
             </center>            
         </div>
-        <footer class="footer">
+        <footer class="footer c3" >
             <div class="footer1" style="margin-left: 210px;">
                 <article class="heading">
                     <h2>Get to know Us</h2>
