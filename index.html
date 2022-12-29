@@ -8,7 +8,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Unbounded:wght@600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="script.js"></script>  
+        <script src="script.js"></script> 
+        <script src="geolocation.js"></script> 
     </head>
     <body>
         <div class="onTop c3" >
@@ -39,9 +40,10 @@
                 <li><a href="" style="padding-top: 0px;padding-bottom: 0px;">orders</a></li>    
                 <li><a href="" class="cart" ><img src="https://icon-library.com/images/white-shopping-cart-icon/white-shopping-cart-icon-9.jpg" alt="icon">cart</a></li>
                 <li><button class="DarkModeBtn" onclick="changeMode()">Dark Mode</button></li>
+                <li ><p id="weather" class="weather"></p> </li>
+                <li class="wimg"><img src="images/weather.png" alt=" image"> </li>
             </ul>
         </div>
-        
         <!-- <header class="navbar">
             <div>Best Sellers</div>
             <div>Mobiles</div>
@@ -207,6 +209,7 @@
         </footer> 
         <script>
             window.onload = loadCoupon();
+            window.onload = geolocation();
         </script>       
     </body>
 </html>
